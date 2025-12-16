@@ -5,8 +5,8 @@
 ###############################################################################
 #
 # FICHIERS REQUIS :
-#   - deploy_remote.sh   (ce script)
-#   - .env               (configuration et secrets)
+#   - deploy.sh   (ce script)
+#   - .env        (configuration et secrets)
 #
 # CONTENU DU .env (obligatoire) :
 #   SSH_HOST
