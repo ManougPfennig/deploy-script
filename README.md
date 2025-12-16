@@ -14,7 +14,7 @@ Ce script Bash permet de déployer automatiquement un dépôt Git sur une machin
 
 ## Structure du projet
 ```
-deploy_script/
+deploy-script/
 │
 ├── deploy.sh # Script principal
 ├── .env # Variables de configuration et secrets
@@ -48,9 +48,9 @@ deploy_script/
 
 1. Assurez-vous que votre fichier `.env` est correctement configuré.  
 2. Rendez le script exécutable :
-*`chmod +x deploy_remote.sh`*
+*`chmod +x deploy.sh`*
 3. Lancez le script :
-*`./deploy_remote.sh`*
+*`./deploy.sh`*
 4. Les logs sont créés automatiquement dans le dossier `logs/`.
 
 ## Bonnes pratiques
